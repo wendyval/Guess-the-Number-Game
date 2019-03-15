@@ -46,3 +46,21 @@ div.intro img {
     background-color: #E3E7F1; 
     border-radius: 12px;
 }
+
+div.difficulty-container p {
+    text-align: center;
+}
+
+div.button-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+div.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
