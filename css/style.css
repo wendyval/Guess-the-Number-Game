@@ -10,3 +10,14 @@ html {
     background-position: center;
     background-size: cover;
 }
+
+div.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.intro img {
+    width: 11%;
+}
