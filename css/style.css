@@ -69,3 +69,10 @@ hr {
     border-top: 1px solid #4806B4;
     width: 90%;
 }
+
+div.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
