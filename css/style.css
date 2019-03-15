@@ -16,8 +16,22 @@ div.intro {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 15px;
+}
+div.intro h1 {
+    font: 700 45px 'Open Sans', sans-serif;
+    color: #E3E7F1;
+    letter-spacing: 4px;
+}
+
+div.intro p {
+    font: 300 17px 'Open Sans', sans-serif;
+    margin: 0;
+    color: #C6CBEF;
+    letter-spacing: 2px;
 }
 
 div.intro img {
     width: 11%;
+    margin-top: 28px;
 }
