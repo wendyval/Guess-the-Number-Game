@@ -35,3 +35,14 @@ div.intro img {
     width: 11%;
     margin-top: 28px;
 }
+
+#container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+    background-color: #E3E7F1; 
+    border-radius: 12px;
+}
