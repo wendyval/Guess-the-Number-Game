@@ -64,3 +64,8 @@ div.button-container {
     align-items: center;
     width: 50%;
 }
+
+hr {
+    border-top: 1px solid #4806B4;
+    width: 90%;
+}
