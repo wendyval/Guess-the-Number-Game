@@ -6,6 +6,9 @@ body {
 html {
     background-image: linear-gradient(to top, #4806b4, #5112bc, #5a1cc3, #6224cb, #6b2cd3, #7333d9, #7a39e0, #8240e6, #8a48ec, #934ff2, #9b57f9, #a35eff);    
     background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
 }
 
 div.intro {
