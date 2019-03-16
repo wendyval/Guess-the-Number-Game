@@ -4,7 +4,8 @@ body {
 }
 
 html {
-    background-image: linear-gradient(to top, #4806b4, #5112bc, #5a1cc3, #6224cb, #6b2cd3, #7333d9, #7a39e0, #8240e6, #8a48ec, #934ff2, #9b57f9, #a35eff);    background-size: cover;
+    background-image: linear-gradient(to top, #4806b4, #5112bc, #5a1cc3, #6224cb, #6b2cd3, #7333d9, #7a39e0, #8240e6, #8a48ec, #934ff2, #9b57f9, #a35eff);    
+    background-size: cover;
 }
 
 div.intro {
@@ -137,9 +138,11 @@ div.input-container p {
 footer {
     background-color: rgba(163, 94, 255, 0.45);
     margin-top: 70px;
-    height: 100%;
+    width: 100%;
     text-align: center;
     padding-top: 5px;
     font: 300 14px 'Open Sans', sans-serif;
     color: #C6CBEF;
+    position: fixed;
+    bottom: 0;
 }
