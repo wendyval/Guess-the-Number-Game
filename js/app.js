@@ -38,7 +38,6 @@ function newNumber() {
 
 function guessCompared() {
     let userGuess = document.getElementById("user-input").value;
-    // console.log(userGuess);
 
     currentAttempts++;
     document.getElementById("attempts").innerHTML = currentAttempts;
@@ -69,6 +68,7 @@ function guessCompared() {
 
 }
 
+// Below is for the year in the footer section and not for the actual game.
 var date = new Date();
 var currentYear = date.getFullYear();
 document.getElementById("year").innerHTML = currentYear;

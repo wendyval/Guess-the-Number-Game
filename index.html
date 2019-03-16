@@ -1,52 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">    <title>Guess the Number Game</title>
-</head>
-<body onload="newNumber()">
-    <div class="intro">
-        <h1>Guess the Number</h1>
-        <p>I have a random number from 1 to 100?</p>
-        <p>Can you guess that number?</p>
-        <img src="img/girl_in_thought.svg" alt="girl thinking">
-    </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">    
+        
+        <title>Guess the Number Game</title>
+    </head>
     
-    <main id="container">
-        <div class="difficulty-container">
-            <p>Select Difficulty:</p>
-            <div class="button-section">
-                <div class="button-container">
-                    <input type="button" id="easy-button" name="easy-button" value="Easy" onclick="easyLevel()">
-                    <label id="easyBtnInfo">Guess in 10 attempts (default)</label>
-                </div>
-
-                <div class="button-container">
-                    <input type="button" id="hard-button" name="hard-button" value="Hard" onclick="hardLevel()">
-                    <label id="hardBtnInfo">Guess in 5 attempts</label>
-                </div>
-
-                <input type="button" id="new-button" name="new-button" value="Play Again" onclick="playAgain()">
-
-            </div>
+    <body onload="newNumber()">
+        <div class="intro">
+            <h1>Guess the Number</h1>
+            <p>I have a random number from 1 to 100?</p>
+            <p>Can you guess that number?</p>
+            <img src="img/girl_in_thought.svg" alt="girl thinking">
         </div>
+        
+        <main id="container">
+            <div class="difficulty-container">
+                <p>Select Difficulty:</p>
+                <div class="button-section">
+                    <div class="button-container">
+                        <input type="button" id="easy-button" name="easy-button" value="Easy" onclick="easyLevel()">
+                        <label id="easyBtnInfo">Guess in 10 attempts (default)</label>
+                    </div>
 
-        <hr>
+                    <div class="button-container">
+                        <input type="button" id="hard-button" name="hard-button" value="Hard" onclick="hardLevel()">
+                        <label id="hardBtnInfo">Guess in 5 attempts</label>
+                    </div>
 
-        <div class="input-container">
-            <label id="messageOutput">Enter your guess & press enter:</label>
-            <input type="number" id="user-input" class="input-field" name="input-field" min="1" max="100" autocomplete="off" onchange="guessCompared()">
-            <p>Number of attempts: <span id="attempts">0</span></p>
-        </div> 
-    </main>
+                    <!-- The button below appears once the game is over.-->
+                    <input type="button" id="new-button" name="new-button" value="Play Again" onclick="playAgain()">
+                </div>
+            </div>
 
-    <footer>
-        <p>© <span id="year"></span> Wendy Valladares. All Rights Reserved.</p>
-    </footer>
+            <hr>
 
-    <script src="js/app.js"></script>
-</body>
+            <div class="input-container">
+                <label id="messageOutput">Enter your guess & press enter:</label>
+                <input type="number" id="user-input" class="input-field" name="input-field" min="1" max="100" autocomplete="off" onchange="guessCompared()">
+                <p>Number of attempts: <span id="attempts">0</span></p>
+            </div> 
+        </main>
+
+        <footer>
+            <p>© <span id="year"></span> Wendy Valladares. All Rights Reserved.</p>
+        </footer>
+
+        <script src="js/app.js"></script>
+    </body>
 </html>

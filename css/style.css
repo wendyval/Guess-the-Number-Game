@@ -9,6 +9,7 @@ html {
     background-position: center;
 }
 
+/**************** Below is the style for the "intro *********************/
 div.intro {
     display: flex;
     flex-direction: column;
@@ -35,6 +36,7 @@ div.intro img {
     margin-top: 28px;
 }
 
+/************ Below is the style for the main container ***************/
 #container {
     width: 70%;
     display: flex;
@@ -45,7 +47,7 @@ div.intro img {
     background-color: #E3E7F1; 
     border-radius: 12px;
 }
-
+/* Below is the style for difficulty section (before the line) */
 div.difficulty-container {
     margin: 40px 0;
 }
@@ -56,6 +58,7 @@ div.difficulty-container p {
     letter-spacing: 2px;
 }
 
+/* Below is the style for buttons */
 div.button-section {
     display: flex;
     flex-direction: row;
@@ -98,11 +101,13 @@ div.button-container label {
     text-align: center;
 }
 
+/* Below is the style for the line */
 hr {
     border-top: 1px solid #4806B4;
     width: 90%;
 }
 
+/* Below is the style for the input container */
 div.input-container {
     display: flex;
     flex-direction: column;
@@ -136,6 +141,7 @@ div.input-container p {
     margin: 0 0 20px;
 }
 
+/****************** Below is the style for the footer ****************/
 footer {
     background-color: rgba(163, 94, 255, 0.45);
     text-align: center;
@@ -146,6 +152,8 @@ footer {
     height: 50px;
     letter-spacing: 2px;
 }
+
+/****************** Media Queries ****************/
 
 @media only screen and (min-height: 998px) {
     footer {
