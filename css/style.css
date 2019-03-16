@@ -92,6 +92,8 @@ div.button-container label {
     font: 400 14px 'Open Sans', sans-serif;
     color: #4806B4;
     letter-spacing: 2px;
+    margin: 0 10px;
+    text-align: center;
 }
 
 hr {
