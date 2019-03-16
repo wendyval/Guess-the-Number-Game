@@ -17,6 +17,7 @@ div.intro {
     align-items: center;
     margin-top: 15px;
 }
+
 div.intro h1 {
     font: 700 45px 'Open Sans', sans-serif;
     color: #E3E7F1;
@@ -79,6 +80,15 @@ input[type="button"] {
     color: #E3E7F1;
     margin: 10px 0 13px;
     letter-spacing: 2px;
+
+    -webkit-transition: 0.3s;
+       -moz-transition: 0.3s;
+            transition: 0.3s;
+}
+
+input[type="button"]:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 
 div.button-container label {
