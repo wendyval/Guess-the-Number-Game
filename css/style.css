@@ -4,7 +4,7 @@ body {
 }
 
 html {
-    background-image: linear-gradient(to bottom, #4806b4, #5112bc, #5a1cc3, #6224cb, #6b2cd3, #7736d9, #8340e0, #8f4ae6, #a059ec, #b167f2, #c076f9, #cf85ff);    background-repeat: no-repeat;
+    background-image: linear-gradient(to top, #4806b4, #5112bc, #5a1cc3, #6224cb, #6b2cd3, #7736d9, #8340e0, #8f4ae6, #a059ec, #b167f2, #c076f9, #cf85ff);    background-repeat: no-repeat;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -52,7 +52,7 @@ div.difficulty-container {
 
 div.difficulty-container p {
     text-align: center;
-    font: 400 18px 'Open Sans', sans-serif;
+    font: 400 17px 'Open Sans', sans-serif;
     letter-spacing: 2px;
 }
 
@@ -103,7 +103,7 @@ div.input-container {
 
 div.input-container label {
     text-align: center;
-    font: 400 18px 'Open Sans', sans-serif;
+    font: 400 17px 'Open Sans', sans-serif;
     letter-spacing: 2px;
 }
 
@@ -114,4 +114,14 @@ input[type="text"] {
     background-color: #C6CBEF;
     margin: 10px 0 13px;
     border-radius: 6px;
+}
+
+footer {
+    background-color: rgba(163, 94, 255, 0.45);
+    margin-top: 70px;
+    height: 100%;
+    text-align: center;
+    padding-top: 5px;
+    font: 300 14px 'Open Sans', sans-serif;
+    color: #C6CBEF;
 }
