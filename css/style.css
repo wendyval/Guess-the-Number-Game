@@ -97,4 +97,21 @@ div.input-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin: 40px 0;
+}
+
+div.input-container label {
+    text-align: center;
+    font: 400 18px 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+input[type="text"] {
+    width: 40%;
+    height: 32px;
+    border: 1px solid #C6CBEF;
+    background-color: #C6CBEF;
+    margin: 10px 0 13px;
+    border-radius: 6px;
 }
